@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CU-DR-2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <!-- header============================================================= -->
+    
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid" style="padding:0 3% ;">
+          <a class="navbar-brand" href="#">
+            <img src="./image/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <path
+                      class="line top"
+                      d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                <path
+                      class="line middle"
+                      d="m 30,50 h 40" />
+                <path
+                      class="line bottom"
+                      d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+              </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Who we are</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">What we do</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li> -->
+                   
+                    <li class="nav-item">
+                      <a class="nav-link">Save the date</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Secrets of Acchoos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Words of Acchoos</a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="search-and-icons">
+             
+              <div class="user-icons d-flex mb-2">
+                <div class="profile"><a href="#">Login</a></div>
+                <div class="cart"><i class="bi bi-cart3"></i></div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </nav>
+
+<!-- header============================================================= -->
+
+<!-- slider=============================== -->
+
+
+<!-- Slider main container -->
+<div class="swiper slider-top">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./image/slider/slider1.jpg" alt=""> </div>
+      <div class="swiper-slide"><img src="./image/slider/slider2.jpg" alt=""> </div>
+      <div class="swiper-slide"><img src="./image/slider/slider3.jpg" alt=""> </div>
+      <div class="swiper-slide"><img src="./image/slider/slider4.jpg" alt=""> </div>
+      <div class="swiper-slide"><img src="./image/slider/slider5.jpg" alt=""> </div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+
+
+<!-- slider=============================== -->
+
+<!-- image-slider -->
+
+<div class="container-fluid com-space new-arri">
+    
+  <h1>Latest arrival</h1>
+
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <div class="item"><img class="xyz" data-alt-src="./image/saree1-d.jpg" src="./image/saree1.jpg" />
+        <h5>Sarees</h5></div>
+  </div>
+  <div class="item">
+      <div class="item"><img class="xyz" data-alt-src="./image/saree--d.jpg" src="./image/saree--.jpg" /><h5>saree</h5></div>
+  </div>
+  <div class="item">
+      <div class="item"><img class="xyz" data-alt-src="./image/saree---2.jpg" src="./image/saree---.jpg" /><h5>saree</h5></div>
+  </div>
+  
+       
+</div>
+
+</div>
+
+
+<!-- image-slider -->
+
+
+
+
+<!-- customize-banner========================== -->
+
+<div class="container-fluid com-space">
+    <div class=" container cuz-banner">
+       <div class="row">
+        <div class="col-md-6">
+          <h4>Customise your dress</h4>
+
+      <div class="cuz-outer">
+          <div class="cuz_link"><a href="#">upload your design<i class="fa-solid fa-arrow-right"></i></a></div>
+          <h5>or</h5>
+          <div class="cuz_link"><a href="#">customize  dress<i class="fa-solid fa-arrow-right"></i></a></div>
+      </div>
+
+      </div>
+      <div class="col-md-6">
+        <img src="./28479 [Converted].png" alt="" style="width:50%">
+      </div>
+       </div>
+    </div>
+</div>
+
+
+<!-- customize-banner========================== -->
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      var sourceSwap = function () {
+var $this = $(this);
+var newSource = $this.data('alt-src');
+$this.data('alt-src', $this.attr('src'));
+$this.attr('src', newSource);
+}
+
+$(function () {
+$('img.xyz').hover(sourceSwap, sourceSwap);
+});
+
+
+    </script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true, 
+            margin: 20, 
+            nav: false,
+            autoplay: true, 
+            autoplayTimeout: 4500,
+            stagePadding: 10,  
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5  <!-- ... cuantas imagnes caben dentro del espacio ... -->
+                }
+            }
+        });
+    </script>
+   
+
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+ 
+
+
+            // effect   
+            effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
+
+
+            autoplay: {
+   delay: 5000,
+ },
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+});
+    </script>
+
+</body>
+</html>
