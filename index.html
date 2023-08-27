@@ -72,7 +72,7 @@
             <div class="search-and-icons">
              
               <div class="user-icons d-flex mb-2">
-                <div class="profile"><a href="#">Login</a></div>
+                <div class="login"><a href="#">Login</a></div>
                 <div class="cart"><i class="fa fa-bag-shopping"></i></div>
               </div>
             </div>
@@ -99,11 +99,11 @@
       ...
     </div>
     <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+    <div class="d-none d-md-block swiper-pagination"></div>
   
     <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    <div class="d-none d-md-block swiper-button-prev"></div>
+    <div class="d-none d-md-block swiper-button-next"></div>
   
     <!-- If we need scrollbar -->
     <!-- <div class="swiper-scrollbar"></div> -->
@@ -152,8 +152,8 @@
 
 <!-- customize-banner========================== -->
 
-<div class="container-fluid com-space">
-    <div class=" container cuz-banner">
+<div class="container-fluid com-space cuz-banner">
+    <div class=" container ">
        <div class="row">
         <div class="col-md-6">
           <h4 style="margin-top:0; text-align: center ; ">Create your own style</h4>
@@ -399,6 +399,8 @@ $('img.xyz').hover(sourceSwap, sourceSwap);
 
 
     </script>
+
+
     <script type="text/javascript">
         $('.owl-carousel').owlCarousel({
             loop: true, 
@@ -410,13 +412,13 @@ $('img.xyz').hover(sourceSwap, sourceSwap);
             dots: false,
             responsive: {
                 0: {
-                    items: 1
+                    items: 2
                 },
                 600: {
                     items: 3
                 },
                 1000: {
-                    items: 5  <!-- ... cuantas imagnes caben dentro del espacio ... -->
+                    items: 5
                 }
             }
         });
