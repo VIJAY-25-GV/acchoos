@@ -102,6 +102,10 @@ p,a,button{
   /* small-device======================= */
 
   @media screen and (max-width: 480px) {
+    .who-w h4{
+      padding-top:5% !important;
+      font-size:2rem !important;
+    }
     .who-w img, .why-us img{
       height:300px !important;
     }
