@@ -102,7 +102,7 @@ p,a,button{
   /* small-device======================= */
 
   @media screen and (max-width: 480px) {
-    .who-w img{
+    .who-w img, .why-us img{
       height:300px !important;
     }
     .com-space h4{
@@ -149,6 +149,7 @@ p,a,button{
     .navbar-brand{
       margin-left:5%;
     }
+    
 
   }
   @media screen and (max-width: 768px) {
