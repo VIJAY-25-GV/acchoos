@@ -39,6 +39,31 @@ p,a,button{
 
 
 
+.com-space h4{
+  font-size: 2.8rem;
+    /* color: var(--t-c); */
+    /* font-weight:600; */
+    text-transform: capitalize;
+    padding-left:1rem;
+    margin:1.5rem 0;
+    text-align: start;
+}
+.com-space h1{
+  font-size: 2rem;
+    /* color: var(--t-c); */
+    font-weight:400;
+    text-transform: capitalize;
+    padding-left:1rem;
+    margin:1.5rem 0;
+    /* text-align: center; */
+  }
+
+  .com-space p{
+  width: 50%;
+  padding-left:1rem;
+  margin:1rem  0 3rem 0;
+  text-align: start;
+}
 
 /* <!-- header============================================================= --> */
 
@@ -247,24 +272,6 @@ p,a,button{
     margin:0 auto;
 }
 
-h4{
-  font-size: 2.5rem;
-    /* color: var(--t-c); */
-    /* font-weight:600; */
-    text-transform: capitalize;
-    padding-left:2rem;
-    margin:1.5rem 0;
-    /* text-align: center; */
-}
-h1{
-  font-size: 2rem;
-    /* color: var(--t-c); */
-    font-weight:400;
-    text-transform: capitalize;
-    padding-left:2rem;
-    margin:2.8rem 0;
-    /* text-align: center; */
-}
 .cuz-outer{
    margin-top:5rem ;
 }
@@ -317,3 +324,13 @@ font-weight: 400;
 
 /* image-slider====================== */
 
+
+/* <!-- shoping-img================================ --> */
+
+
+.coll-avai{
+  background-color: #212727;
+}
+
+
+/* <!-- shoping-img================================ --> */
